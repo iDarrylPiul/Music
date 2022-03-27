@@ -1,0 +1,95 @@
+// if(options.getSubcommand() === 'say') {
+
+//   const connection = joinVoiceChannel({
+//       channelId: canal.id,
+//       guildId: canal.guild.id,
+//       adapterCreator: canal.guild.voiceAdapterCreator,
+//   });
+//   connection;
+
+//   const texto = options.getString('texto')
+
+//   const player = createAudioPlayer({
+//       behaviors: {
+//           noSubscriber: NoSubscriberBehavior.Pause,
+//       },
+//   });
+
+//   const resource = createAudioResource(
+//       tts.getAudioUrl(texto, {
+//           lang: "es",
+//           slow: false,
+//           host: "https://translate.google.com",
+//       })
+//   );
+
+//   player.play(resource)
+//   connection.subscribe(player)
+
+//   interaction.followUp({
+//       embeds: [
+//           new MessageEmbed()
+//           .setDescription(`${client.config.done} | Reproduciendo \`${texto}\``)
+//           .setColor('GREEN')
+//       ]
+//   });
+
+// }
+
+// interaction.reply({
+//     embeds: [
+//         new MessageEmbed()
+//         .setTitle(`🔰 | ¡Información De Comando Play!`)
+//         .setColor('LUMINOUS_VIVID_PINK')
+//         .addFields(
+//             {
+//                 name: '**Comando:**',
+//                 value: '\`play\`'
+//             },
+//             {
+//                 name: '**Description:**',
+//                 value: `\`¡Reproduce Música En Un Canal De Voz!\``
+//             },
+//             {
+//                 name: '**Aliases:**',
+//                 value: `\`p\``
+//             },
+//             {
+//                 name: '**Uso:**',
+//                 value: `\`play <Canción/Link>, p <Canción/Link>\``
+//             })
+//     ]
+// })
+
+// if(!StringOption) return interaction.reply({
+//     embeds: [
+//         new MessageEmbed()
+//         .setTitle(`🔰 | ¡Menú de Ayuda!`)
+//         .setDescription(`[Invitación del Bot](${invite})\n\n> **Comandos:**`)
+//         .setColor('#C219D8')
+//         .setThumbnail(client.user.displayAvatarURL())
+//         .setFooter({ text: `Para Obtener Ayuda Para Un Solo Comando Escriba <prefix>help <comando>`, iconURL: client.user.displayAvatarURL({ dynamic: true, size: 512, format: 'png' }) })
+//         .addFields(
+//             {
+//                 name: '**Queue:**',
+//                 value: `> \`clear, list, move, remove, shuffle, now_playing, replay, jump, autoplay, volume\``
+//             },
+//             {
+//                 name: '**Músic:**',
+//                 value: '> \`play, skip, stop, pause, resume, filter, search, previous\`'
+//             },
+//             {
+//                 name: 'Song',
+//                 value: `> \`addend, forward, rewind, lyrics, seek, join, leave, loop, radio\``
+//             },
+//             {
+//                 name: '**Playlist:**',
+//                 value: '> \`playlist-save, playlist-play, playlist-queue, playlist-delete\`'
+//             },
+//             {
+//                 name: '**Filters:**',
+//                 value: '> \`clear, lightbass, heavybass, bassboost, purebass, 8D, vaporwave, phaser, tremolo, vibrato, reverse, treble, surrounding, pulsator, subboost, karaoke, flanger, gate, haas, mcompand, earrape\`'
+//             }
+//         )
+//     ]
+// })

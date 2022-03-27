@@ -1,0 +1,18 @@
+{
+  "error": "<a:aerror938621409490501662:938621522610888734>",
+  "done": "<a:b_yes:938621560149926039>",
+  "stop": "🛑",
+  "search": "🔎",
+  "lyrics": "6ux5tApq4p6Cj--VZIXeoLu63tyrQFcSW0cAdReuEqE-2RPB-B0M-gDBKuc0pHdV",
+  "db": "mongodb+srv://music-bot:fugueroa406@cluster0.i6kt4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "note": "📝",
+  "remove": "🗑️",
+  "shuffle": "🔀",
+  "volume": "🔊",
+  "previous": "⏪",
+  "next": "⏩",
+  "warn": "⚠️",
+  "prefix": "+",
+  "filter": "♨️",
+  "token": "OTI5MDQwNDU0NjY4OTEwNjky.YdhiWQ.5hDNI2cZZifwAXgqXZH8KY649kc"
+}

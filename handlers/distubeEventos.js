@@ -320,21 +320,10 @@ module.exports = (client) => {
         textChannel.send({
             embeds: [
                 new MessageEmbed()
-                .setDescription(`${client.config.error} | Ocurrio Un Error, La Solicitud Fue Avisada A los Creadores!`)
+                .setDescription(`${client.config.error} | Ocurrio Un Error, La Solicitud Fue Avisada A los Creadores!\n\`\`\`${e}\`\`\``)
                 .setColor('RED')
             ]
-        })
-
-        
-        client.channels.cache.get('952293651889946694').send({
-            embeds: [
-                new MessageEmbed()
-                .setTitle('🎵 Ocurrio Un Error 🎵')
-                .setDescription(`\`\`\`${e}\`\`\``)
-                .setColor('RED')
-                .setFooter({ text: `REVISA HEROKU ESTUPIDO` })
-            ]
-        }).catch(err => console.log('froster por que eliminaste el canal ?'))
+        });
         
     });
 

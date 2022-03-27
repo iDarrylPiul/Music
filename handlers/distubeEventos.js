@@ -39,6 +39,10 @@ module.exports = (client) => {
             new SpotifyPlugin({
                 parallel: true,
                 emitEventsAfterFetching: true,
+                api: {
+                    clientId: "1600744ce8c74e22a20ce9dbfc3582b4",
+                    clientSecret: "a5a27c936c30467fa39d6bdb6764a3b3"
+                }
             }),
             new YtDlpPlugin(),
         ]
